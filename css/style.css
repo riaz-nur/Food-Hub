@@ -61,8 +61,8 @@ header {
 #left-header {
   float: left;
   max-width: 50%;
-  padding: 5rem;
-  margin: 10rem 0;
+  padding: 0 5%;
+  margin: 15% 0;
 }
 
 #left-header h1 {
@@ -80,7 +80,8 @@ header {
 
 #header-img {
   float: right;
-  max-width: 50%;
+  width: 50%;
+  text-align: center;
   padding: 5rem;
   margin-top: 20px;
 }
@@ -88,7 +89,6 @@ header {
 #header-img img {
   width: 100%;
   height: 80vh;
-  border-radius: 50%;
 }
 
 /* Contact Us */
@@ -96,13 +96,15 @@ header {
 #contact-us {
   width: 100%;
   height: 650px;
-  background: url('../img/shapes/Frame\ 57.jpg') no-repeat center center/cover;
+  background: url('../img/shapes/Frame\ 57.jpg') no-repeat center center/100%
+    100%;
   padding: 5rem;
 }
 
 .left-image {
   float: left;
-  max-width: 50%;
+  width: 50%;
+  text-align: center;
 }
 
 .left-image img {
@@ -111,9 +113,8 @@ header {
 
 .right-contact-text {
   float: right;
-  max-width: 50%;
-  /* text-align: center; */
-  margin: 80px 0 0 0;
+  width: 50%;
+  margin: 2.5% 0 0 0;
 }
 
 .right-contact-text h3 {
@@ -146,13 +147,13 @@ header {
 }
 
 #cards {
-  padding: 0 5rem;
+  padding: 0 5%;
   width: 100%;
 }
 
 .card-layout {
   width: 33.3%;
-  padding: 20px;
+  /* padding: 20px; */
   float: left;
 }
 
@@ -160,6 +161,18 @@ header {
   box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
   padding: 20px;
   border-radius: 15px;
+}
+
+.card1 {
+  margin-right: 2rem;
+}
+
+.card2 {
+  margin: 0 2rem;
+}
+
+.card3 {
+  margin-left: 2rem;
 }
 
 .card h3 {
@@ -183,7 +196,7 @@ header {
 #statistics-card {
   box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
   padding: 10rem 10rem;
-  margin: 7rem;
+  margin: 7rem 5%;
   border-radius: 20px;
   height: 250px;
 }
