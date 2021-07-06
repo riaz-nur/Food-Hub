@@ -143,26 +143,19 @@ p {
 
 #cards {
   padding: 0 5rem;
+  width: 100%;
+}
+
+.card-layout {
+  width: 33.3%;
+  padding: 20px;
+  float: left;
 }
 
 .card {
-  width: 30%;
   box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
   padding: 20px;
   border-radius: 15px;
-  margin: 0 2rem;
-}
-
-.card1 {
-  float: left;
-}
-
-.card2 {
-  float: left;
-}
-
-.card3 {
-  float: right;
 }
 
 .card h3 {
@@ -191,22 +184,10 @@ p {
   height: 250px;
 }
 
-.stat1 {
-  float: left;
-}
-
-.stat2 {
-  float: left;
-}
-
-.stat3 {
-  float: right;
-}
-
 .stat-individual {
-  width: 30%;
-  margin: 1rem;
+  width: 33.3%;
   text-align: center;
+  float: left;
 }
 
 .stat-individual h1 {
