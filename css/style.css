@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Common */
+
+.clr {
+  clear: both;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.6em;
+  font-weight: 500;
+  color: #828282;
+}
+
+.front-span {
+  /* color: #42b4fb; */
+  /* background: linear-gradient(to left, #fba24f, #ff1e1e); */
+  background: linear-gradient(to left, #ff1e1e, #fba24f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-color {
+  color: #3fb162;
+}
+
+.brand-color span {
+  color: #42b4fb;
+}
+
+.btn {
+  background: linear-gradient(to left, #42b4fb, #93d8fd);
+  text-decoration: none;
+  color: rgb(54, 54, 53);
+  border-radius: 40px;
+  padding: 20px 25px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Header */
+
+#left-header {
+  float: left;
+  max-width: 50%;
+  padding: 5rem;
+  margin: 10rem 0;
+}
+
+#left-header h1 {
+  font-size: 6rem;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #575757;
+}
+
+.order-btn {
+  margin-top: 40px;
+  display: block;
+}
+
+#header-img {
+  float: right;
+  max-width: 50%;
+  padding: 5rem;
+  margin-top: 20px;
+}
+
+#header-img img {
+  width: 100%;
+  height: 650px;
+  border-radius: 50%;
+}
+
+/* Contact Us */
+
+#contact-us {
+  width: 100%;
+  height: 650px;
+  background: url('../img/shapes/Frame\ 57.jpg') no-repeat center center/cover;
+  padding: 5rem;
+}
+
+.left-image {
+  float: left;
+  max-width: 50%;
+}
+
+.left-image img {
+  width: 480px;
+}
+
+.right-contact-text {
+  float: right;
+  max-width: 50%;
+  /* text-align: center; */
+  margin: 80px 0 0 0;
+}
+
+.right-contact-text h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+  color: #575757;
+}
+
+.contact-btn {
+  display: block;
+  margin: 80px 0 0;
+}
+
+/* Recipe content */
+
+#recipe-intro {
+  width: 50%;
+  text-align: center;
+  margin: 80px auto;
+}
+
+#recipe-intro h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+  color: #575757;
+}
+
+#cards {
+  padding: 0 5rem;
+}
+
+.card {
+  width: 30%;
+  box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0 2rem;
+}
+
+.card1 {
+  float: left;
+}
+
+.card2 {
+  float: left;
+}
+
+.card3 {
+  float: right;
+}
+
+.card h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.card p {
+  font-size: 1.8rem;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  max-height: 250px;
+}
+
+/* Stats */
+
+#statistics-card {
+  box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
+  padding: 10rem 10rem;
+  margin: 7rem;
+  border-radius: 20px;
+  height: 250px;
+}
+
+.stat1 {
+  float: left;
+}
+
+.stat2 {
+  float: left;
+}
+
+.stat3 {
+  float: right;
+}
+
+.stat-individual {
+  width: 30%;
+  margin: 1rem;
+  text-align: center;
+}
+
+.stat-individual h1 {
+  font-size: 2.5rem;
+}
+
+.stat-individual p {
+  font-size: 1.7rem;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  margin-top: 10rem;
+  background: #0b0d17;
+  padding: 4rem 5rem;
+}
+
+footer h2 {
+  font-size: 2rem;
+  /* color: #5b5b5b; */
+  color: #3fb162;
+  margin-bottom: 2rem;
+}
+
+footer h2 span {
+  color: #42b4fb;
+}
+
+footer p {
+  font-size: 1.5rem;
+}
